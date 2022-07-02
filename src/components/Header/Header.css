@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+
+.permanent-marker-font{
+    font-family: 'Permanent Marker', cursive;
+}
+
+.play-ball-font{
+    font-family: 'Playball', cursive;
+}
+.amaranth-font{
+    font-family: 'Amaranth', sans-serif;
+}
+.pacifico-font{
+    font-family: 'Pacifico', cursive;
+}
+
+body{
+    font-family: 'Amaranth', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 500ms;
+}
+
+a:hover{
+    color: orange;
+}
+
+.navbar-link{
+    
+
+}

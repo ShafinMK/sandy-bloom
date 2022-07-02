@@ -1,0 +1,31 @@
+.pricing-bg {
+
+    /* background-image: url("https://images.unsplash.com/photo-1602595688238-9fffe12d5af3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"); */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1534157458714-42b1e9cd5727?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+   
+    background-color: #cccccc;
+    
+    /* height: 100vh; */
+   
+    background-position: center;
+  
+    background-repeat: no-repeat;
+  
+    background-size: cover;
+    
+}
+
+.bg-brown{
+    background-color: #b99471;
+    color: white;
+}
+.custom-button{
+    padding: 8px 16px;
+    transition-duration: .5s;
+    
+}
+.custom-button:hover{
+    background-color: black;
+    color: white;
+
+}
