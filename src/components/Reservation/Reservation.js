@@ -10,11 +10,11 @@ const Reservation = () => {
     return (
         <div className='container my-5'>
 
-            <div className='grid'>
+            <div className=''>
                 <div className="row">
                     <div className='col-12 col-lg-6'>
                         <h1 className='text-center my-5'>Reservation</h1>
-                        <h5 className='text-center my-5'>Book your room right now and start your amazing adventure full of discoveries and experiences with sandy bloom</h5>
+                        <h5 className='text-center my-5 text-muted'>Book your room right now and start your amazing adventure full of discoveries and experiences with sandy bloom</h5>
                         <form >
                             <div className="mb-3 row">
                                 
@@ -82,7 +82,7 @@ const Reservation = () => {
 
                         </form>
                     </div>
-                    <div className='col-12 col-lg-6 '>
+                    <div className='col-12 col-lg-6 py-5'>
                         <img src="https://images.unsplash.com/photo-1506477331477-33d5d8b3dc85?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=734&q=80" className='img-fluid rounded-top' alt="" />
                     </div>
                 </div>

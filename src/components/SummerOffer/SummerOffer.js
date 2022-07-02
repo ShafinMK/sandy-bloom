@@ -5,7 +5,7 @@ const SummerOffer = () => {
         <div className='container my-5'>
 
             <div className="row align-items-center">
-                <div className="col-12 col-lg-4">
+                <div className="col-12 col-lg-4 my-5">
                     <p className='fs-6'>BEST SUMMER OFFERS</p>
                     <h1>Promotions</h1>
                     <p>Lorem ipsum dolor, sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus vero ducimus illo officia modi vel, cum aliquid quibusdam maiores porro. consectetur adipisicing elit. Nesciunt porro reprehenderit, voluptate atque quaerat quos earum quo maiores totam facilis!</p>
@@ -17,7 +17,7 @@ const SummerOffer = () => {
 
                 </div>
 
-                <div className='col-12 col-lg-4 d-flex align-items-center'>
+                <div className='col-12 col-lg-4 d-flex align-items-center my-5'>
 
                     <div>
                         {/* side items menu  */}
