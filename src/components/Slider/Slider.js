@@ -15,7 +15,7 @@ const Slider = () => {
                         
                         <div className="carousel-caption  d-block position-absolute top-50 start-50 translate-middle">
                             <h1 className='permanent-marker-font'>MAKE YOURSELF AT HOME</h1>
-                            <button className='btn bg-transparent text-white border border-light mt-5'>View Our Rooms</button>
+                            <button className='btn bg-transparent text-warning border border-warning mt-5'>View Our Rooms</button>
 
                         </div>
                     </div>
@@ -27,14 +27,14 @@ const Slider = () => {
                             <h1 className='permanent-marker-font'>Redefine your expectations</h1>
                             {/* different font 3rd line */}
                             <h2 className='play-ball-font'>A hotel experience, unlike the rest</h2>
-                            <button className='btn bg-transparent text-white border border-light mt-5'>View Our Rooms</button>
+                            <button className='btn bg-transparent text-warning border border-warning mt-5'>Check Our Fascilities</button>
                         </div>
                     </div>
                     <div className="carousel-item bg-black">
                         <img src="https://images.unsplash.com/photo-1567062691477-fcbc8bbdf5b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" className="d-block w-100 img-fluid vh-100 opacity-25" alt="..." />
                         <div className="carousel-caption d-block position-absolute top-50 start-50 translate-middle">
                             <h1 className='permanent-marker-font'>Thermal Baths</h1>
-                            <button className='btn bg-transparent text-warning border border-warning mt-5'>View Our Rooms</button>
+                            <button className='btn bg-transparent text-warning border border-warning mt-5'>View Luxary Baths</button>
                         </div>
                     </div>
                 </div>
