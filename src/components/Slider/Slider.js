@@ -34,7 +34,7 @@ const Slider = () => {
                         <img src="https://images.unsplash.com/photo-1567062691477-fcbc8bbdf5b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" className="d-block w-100 img-fluid vh-100 opacity-25" alt="..." />
                         <div className="carousel-caption d-block position-absolute top-50 start-50 translate-middle">
                             <h1 className='permanent-marker-font'>Thermal Baths</h1>
-                            <button className='btn bg-transparent text-white border border-light mt-5'>View Our Rooms</button>
+                            <button className='btn bg-transparent text-warning border border-warning mt-5'>View Our Rooms</button>
                         </div>
                     </div>
                 </div>

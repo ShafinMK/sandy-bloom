@@ -13,26 +13,32 @@ const useFirebase = () => {
     const auth = getAuth();
 
     const [user, setUser] = useState({});
+    const [isLoading, setIsLoading] = useState(true);
     // const [error, setError] = useState('');
 
     const signInwithGoogle = () => {
-       return signInWithPopup(auth, googleProvider);
-            
+        setIsLoading(true);
+        return signInWithPopup(auth, googleProvider);
+
     }
 
     useEffect(() => {
         onAuthStateChanged(auth, (user) => {
             setUser(user);
+            setIsLoading(false);
         })
     }, []);
 
     const logOut = () => {
-        signOut(auth).then(() => {
-            setUser({});
-        });
+        setIsLoading(true);
+        signOut(auth)
+            .then(() => {
+                setUser({});
+            })
+            .finally(() => { setIsLoading(false) });
     }
     return {
-        user, signInwithGoogle, logOut
+        user, isLoading, signInwithGoogle, logOut
     };
 
 }
